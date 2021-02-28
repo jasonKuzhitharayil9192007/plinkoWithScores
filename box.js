@@ -12,6 +12,7 @@ class Box {
     World.add(world, this.body);
   }
   display(){
+    push();
     var pos =this.body.position;
     rectMode(CENTER);
     fill(255);

@@ -79,7 +79,7 @@ function spawnParticles()
    particle.createSprite = (random(50,750), 10, 10);
    }
    
-   }
+   
 
 }
 
